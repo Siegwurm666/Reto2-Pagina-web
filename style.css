@@ -24,9 +24,10 @@ ul{
 }
 a{
     text-decoration: none;
+    color: var(--texto);
 }
 section{
-    padding: 50px 0;
+    padding: 70px 0;
 }
 .verde{
     color: var(--verdeclarito);
@@ -35,6 +36,16 @@ h1{
     font-size: 4rem;
     line-height: 1;
 }
+.colorsecundario{
+    color: var(--textosecundario);
+}
+.display{
+    display: flex;
+}
+.display.space{
+    justify-content: space-between;
+}
+
 header{
     padding: 20px 90px;
     padding-top: 30px;
@@ -42,7 +53,10 @@ header{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background-color: var(--crema);
+    background-color: var(--fondo);
+    position: fixed;
+    width: 92%;
+    border-bottom: solid 1px var(--bordes);
 }
 header div{
     display: flex;
@@ -50,32 +64,64 @@ header div{
 }
 header ul{
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 header ul a{
     color: var(--textosecundario);
-    padding: 15px;
+    padding: 12px;
+    transition: color 0.2s;
 }
+header ul a.principal{
+    padding-bottom: 30px;
+}
+header ul a.principal:hover{
+    color: black;
+    border-bottom: solid 3px var(--verdeclarito);
+}
+
 header ul a.especial{
     color: var(--crema);
     background-color: var(--verdeoscuro);
+    transition: color 0.2s;
 }
+header ul a.especial:hover{
 
+    background-color: #12383A;
+}
 
 .section1{
     display: flex;
     gap: 25px;
     background: linear-gradient(to right, var(--verde), var(--verdeoscuro));   
     color: var(--crema);
-    padding: 50px 50px;
+    padding: 70px 50px;
+    padding-top: 110px;
 }
 .section1 div.display{
     display: flex;
     gap: 10px;
 }
+.section1 .display.bajo{
+    margin-top: 30px;
+}
+.section1 .display.bajo.borde{
+    margin-top: 60px;
+}
+.section1 .display.bajo.borde div{
+    border-left: solid 1px var(--bordes);
+    padding-left: 12px;
+    padding-right: 20px;
+}
+.section1 .display.bajo.borde div h3{
+    font-size: 1.5rem;
+}
 .section1 article{
     padding-top: 60px;
     padding-left: 70px;
+}
+.section1 p.texto{
+    width: 50%;
+    font-size: 1.2rem;
 }
 .section1 p{
     color: var(--textosecundario);
@@ -92,4 +138,130 @@ p.verde{
 }
 .section1 .enlace2{
     color: var(--crema);
+}
+
+
+
+
+
+.section2{
+    padding: 70px 300px;
+}
+.section2 h2{
+    font-size: 3rem;
+    line-height: 1;
+    width: 40%;
+    padding-top: 15px;
+}
+p.colorsecundario.bajar{
+    padding-top: 40px;
+    width: 30%;
+}
+div.display.articulos{
+    margin-top: 40px;
+    border-top: solid 1px var(--bordes);
+    border-bottom: solid 1px var(--bordes);
+}
+.section2 article.borde{
+    border-right: solid 1px var(--bordes);
+    border-left: solid 1px var(--bordes);
+}
+div.display.articulos article{
+    padding: 28px;
+}
+div.display.articulos article h4{
+    font-size: 1.3rem;
+}
+div.display.articulos article div.a{
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+
+
+.section3{
+    background-color: var(--crema);
+    padding: 70px 350px;
+}
+.section3 h2{
+    padding-top: 15px;
+    font-size: 2.5rem;
+    line-height: 1;
+    width: 70%;
+}
+.section3 .texto1{
+    font-size: 1.2rem;
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.section3 ul li{
+    line-height: 2;
+}
+.section3 article div{
+    padding-top: 30px;
+}
+.section3 article div a{
+    font-weight: bold;
+}
+
+
+
+
+
+.section4{
+    padding: 70px 350px;
+}
+.section4 h2{
+    font-size: 3rem;
+    width: 70%;
+    padding-bottom: 40px;
+}
+.section4 p.colorsecundario.texto2{
+    padding-top: 20px;
+}
+.section4 img{
+    width: 60px;
+}
+.section4 article div{
+    padding: 20px;
+}
+.section4 div h4{
+    padding-top: 15px;
+}
+.section4 article{
+    border: solid 1px var(--bordes);
+}
+.section4 article .bordes{
+    border-right: solid 1px var(--bordes);
+}
+.section4 article div.fondoverde{
+    background-color: var(--verdeclarito);
+}
+.section4 article div ul li p b{
+    font-size: 0.9rem;
+}
+.section4 article div ul li p b span{
+    color: #89d433;
+}
+
+
+.section5{
+    background-color: var(--verde);
+    padding: 70px 80px;
+}
+.section5 h2{
+    color: var(--fondo);
+    font-size: 3rem;
+}
+.section5 div{
+    padding-top: 45px;
+}
+.section5 div a{
+    background-color: var(--fondo);
+    padding: 15px;
+    transition: color 0.2s;
+}
+.section5 div a:hover{
+    background-color: var(--verdeclarito);
 }
