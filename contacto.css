@@ -41,7 +41,9 @@ section{
 .display.space{
     justify-content: space-between;
 }
-
+.blanco{
+    color: var(--fondo);
+}
 header{
     padding: 20px 90px;
     padding-top: 30px;
@@ -85,45 +87,50 @@ header ul a.especial:hover{
     background-color: #12383A;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.siempre{
+.section1{
+    padding: 0;
+    padding-top: 85px;
+}
+.section1 .contenedor1{
     background-color: var(--verde);
-    padding: 70px 80px;
+    padding: 70px 70px;
+    width: 30%;
 }
-.siempre h2{
-    color: var(--fondo);
-    font-size: 3rem;
+.section1 .contenedor1 h2{
+    font-size: 4rem;
+    line-height: 1;
+    padding: 10px 0px;
 }
-.siempre div{
-    padding-top: 45px;
+.section1 .contenedor1 p.texto1{
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
-.siempre div a{
-    background-color: var(--fondo);
-    padding: 15px;
-    transition: color 0.2s;
+.section1 .contenedor1 div.bordearriba{
+    border-top: solid 1px var(--bordes);
+    padding-top: 20px;
 }
-.siempre div a:hover{
-    background-color: var(--verdeclarito);
+.section1 .contenedor1 div.bordearriba article{
+    padding: 10px 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     background-color: var(--verdeoscuro);
     color: var(--crema);
