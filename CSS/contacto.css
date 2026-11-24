@@ -15,7 +15,7 @@
 }
 body{
     background-color: var(--fondo);
-    font-family: "DM Sans", sans-serif;
+    font-family: Sans-serif;
     line-height: 1.4;
     color: var(--texto);
 }
@@ -132,10 +132,6 @@ header ul a.especial:hover{
     padding: 10px 0px;
 }
 
-
-
-
-
 .section1 .contenedor2{
     padding: 80px 120px;
     width: 50%;
@@ -198,9 +194,6 @@ header ul a.especial:hover{
     transform: translateY(-2px);
 }
 
-
-
-
 footer{
     background-color: var(--verdeoscuro);
     color: var(--crema);
@@ -229,4 +222,38 @@ footer .siguenos{
 footer .siguenos a{
     border: solid 1px var(--bordes);
     padding: 8px;
+}
+.dato-contacto{
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.icono-contacto{
+    color: var(--verdeclarito);
+    font-size: 1.5rem;
+    line-height: 1;
+    width: 22px;
+    text-align: center;
+}
+
+.dato-contacto .colorsecundario{
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.direccion-pendiente{
+    display: inline-block;
+    color: #D94B36;
+    background-color: #FFF0E9;
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    margin-top: 3px;
+}
+
+.contenedor2 input:focus,
+.contenedor2 select:focus,
+.contenedor2 textarea:focus{
+    outline: none;
+    box-shadow: none;
 }
