@@ -164,11 +164,98 @@ header ul a.especial:hover{
     padding-bottom: 10px;
 }
 
+.section5{
+  margin: 25px;
+  margin-top: 0px;
+}
 
+.section5 h2{
+    font-size: 28px;
+    margin-bottom: 24px;
+}
 
+.section5 h4{
+    font-size: 20px;
+    font-weight: inherit;
+}
 
+.dafo1{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
 
+.dafo1 article{
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
 
+.debilidades{
+    border-top: 5px solid #d97757;
+}
+
+.amenazas{
+    border-top: 5px solid #d97757;
+}
+
+.fortalezas{
+    border-top: 5px solid #829f54;
+}
+
+.oportunidades{
+    border-top: 5px solid #829f54;
+}
+
+.dafo1 ul{
+    list-style: none;
+    padding: 0;
+}
+
+.dafo1 li{
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.section6 {
+  margin: 25px;
+  margin-top: 0px;
+}
+
+.section6 h2 {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.section6 h4 {
+    font-size: 20px;
+    font-weight: inherit;
+}
+
+.fuentes1 {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.fuentes1 article {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-top: 5px solid #829f54;
+    padding: 20px;
+}
+
+.fuentes1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fuentes1 li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
 
 .siempre{
     background-color: var(--verde);
