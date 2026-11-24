@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="../CSS/contacto.css">
+    <link rel="stylesheet" href="contacto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
@@ -12,8 +12,8 @@
 <body>
     <header>
         <div>
-            <img src="" alt="">
-            <h3>LinkAge</h3>
+            <img src="LogoSinFondo.png" alt="">
+            <h3>Link-Age</h3>
         </div>
         <ul>
             <li><a href="index.html" class="principal">Qué ofrecemos</a></li>
@@ -64,7 +64,51 @@
             
             
             <section class="contenedor2">
-
+                <h3>Háblanos de tu proyecto</h3>
+                <p class="colorsecundario texto1">Todos los campos marcados son obligatorios.</p>
+                <article class="cuestionario">
+                    <div class="display gap">
+                        <div class="display colum">
+                            <label class="mayusculas negrita texto" for="nombre">Nombre y apellidos *</label>
+                            <input class="colorsecundario" type="text" name="nombre" id="nombre" placeholder="Tú nombre" required>
+                        </div>
+                        <div class="display colum">
+                            <label class="mayusculas negrita texto" for="proyecto">Empresa / proyecto *</label>
+                            <input class="colorsecundario" type="text" name="proyecto" id="`proyecto" placeholder="Nombre del proyecto">
+                        </div>
+                    </div>
+                    <div class="display gap">
+                        <div class="display colum">
+                            <label class="mayusculas negrita texto" for="email">Email *</label>
+                            <input class="colorsecundario" type="text" name="email" id="email" placeholder="nombre@empresa.com" required>
+                        </div>
+                        <div class="display colum">
+                            <label class="mayusculas negrita texto" for="telefono">Teléfono</label>
+                            <input class="colorsecundario" type="tel" name="telefono" id="telefono" placeholder="+34 600 000 000">
+                        </div>
+                    </div>
+                    <div class="display colum">
+                        <label class="mayusculas negrita texto" for="servicio">¿En qué podemos ayudarte? *</label>
+                        <select class="colorsecundario" name="servicio" id="servicio">                                
+                            <option class="colorsecundario" value="">Selecciona una opcion</option>
+                            <option class="colorsecundario" value="">Alojamiento en el vivero</option>
+                            <option class="colorsecundario" value="">Servicios tecnologícos</option>
+                            <option class="colorsecundario" value="">Colaboración</option>
+                            <option class="colorsecundario" value="">Otra consulta</option>
+                        </select>
+                    </div>
+                    <div class="display colum">
+                            <label class="mayusculas negrita texto" for="mensaje">Cuéntanos un poco más *</label>
+                            <textarea name="mensaje" id="mensaje" rows="5" placeholder="Cuéntanos tu proyecto..." required></textarea>
+                    </div>
+                    <label class="colorsecundario texto2">
+                        <input type="checkbox" name="privacidad" id="privacidad" required>
+                        He leido y acepto la <a class="colorsecundario" href="#">politica de privacidad</a>*
+                    </label>
+                    <div>
+                        <button type="submit" class="boton">Enviar solicitud &rarr;</button>
+                    </div>
+                </article>
             </section>
         </section>
 
