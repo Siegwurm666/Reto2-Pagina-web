@@ -41,11 +41,16 @@ section{
 .display.space{
     justify-content: space-between;
 }
-
+header img{
+    height: 50px;
+}
+header div{
+    align-items: center;
+}
 header{
     padding: 20px 90px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     align-items: center;
     display: flex;
     justify-content: space-between;

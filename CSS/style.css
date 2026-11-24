@@ -33,7 +33,7 @@ section{
     color: var(--verdeclarito);
 }
 h1{
-    font-size: 4rem;
+    font-size: 4.5rem;
     line-height: 1;
 }
 .colorsecundario{
@@ -45,10 +45,22 @@ h1{
 .display.space{
     justify-content: space-between;
 }
+.negrita{
+    font-weight: bold;
+}
+.verde2{
+    color:#629923;
+}
+header img{
+    height: 50px;
+}
+header div{
+    align-items: center;
+}
 header{
     padding: 20px 90px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -118,7 +130,7 @@ header ul a.especial:hover{
     padding-left: 70px;
 }
 .section1 p.texto{
-    width: 50%;
+    width: 60%;
     font-size: 1.2rem;
 }
 .section1 p{
@@ -173,6 +185,11 @@ div.display.articulos article div.a{
     background-color: var(--crema);
     padding: 70px 350px;
 }
+.section3 img {
+    height: 500px;
+    border: solid 1px var(--bordes);
+    border-radius: 5px;
+}
 .section3 h2{
     padding-top: 15px;
     font-size: 2.5rem;
@@ -194,13 +211,22 @@ div.display.articulos article div.a{
 .section3 article div a{
     font-weight: bold;
 }
+.section3 .backgraund{
+    background-color: var(--verdeclarito);
+    padding: 13px;
+}
+.section3 .enlaces{
+    gap: 25px;
+    align-items: center;
+}
 .section4{
     padding: 70px 350px;
 }
 .section4 h2{
     font-size: 3rem;
-    width: 70%;
+    width: 50%;
     padding-bottom: 40px;
+    margin-right: 200px;
 }
 .section4 p.colorsecundario.texto2{
     padding-top: 20px;
@@ -210,6 +236,7 @@ div.display.articulos article div.a{
 }
 .section4 article div{
     padding: 20px;
+    width: 33%;
 }
 .section4 div h4{
     padding-top: 15px;
@@ -228,6 +255,10 @@ div.display.articulos article div.a{
 }
 .section4 article div ul li p b span{
     color: #89d433;
+}
+.section4 .enlace{
+    padding-top: 35px;
+    width: 100%;
 }
 .siempre{
     background-color: var(--verde);
