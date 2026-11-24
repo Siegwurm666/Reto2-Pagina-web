@@ -32,6 +32,9 @@ section{
 .verde{
     color: var(--verdeclarito);
 }
+.verde2{
+    color: #5b9928;
+}
 .colorsecundario{
     color: var(--textosecundario);
 }
@@ -119,6 +122,10 @@ header ul a.especial:hover{
     padding-left: 20px;
     padding-top: 60px;
 }
+.section2 .enlace{
+    background-color: var(--verdeclarito);
+    padding: 15px;
+}
 .section3{
     background-color: var(--verdeoscuro);
     padding: 70px 300px;
@@ -135,6 +142,7 @@ header ul a.especial:hover{
     margin-top: 45px;
     gap: 5px;
     border-top: solid 1px var(--bordes);
+    border-bottom: solid 1px var(--bordes);
 }
 .section3 div.tabla article{
     padding: 15px;
@@ -153,6 +161,19 @@ header ul a.especial:hover{
 .section3 div.tabla article.bordelateral{
     border-right: solid 1px var(--bordes);
 }
+.section3 .backgraund{
+    background-color: var(--fondo);
+    color: var(--texto);
+    padding: 15px;
+    transition: color 0.2s;
+}
+.section3 .backgraund:hover{
+    background-color: var(--verdeclarito);
+}
+.section3 .enlaces{
+    margin-top: 30px;
+    align-items: center;
+}
 .section4{
     padding: 80px 200px;
 }
@@ -169,8 +190,9 @@ header ul a.especial:hover{
     width: 50%;
     gap: 10px;
 }
-.section4 div.contenido p.verde{
+.section4 div.contenido p.verde2{
     font-size: 1.5rem;
+    font-weight: bold;
 }
 .section4 div.contenido p.texto5{
     padding-top: 10px;
